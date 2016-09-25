@@ -1,6 +1,6 @@
 body{
     background-color: #CAE3D1;
-    font-size: 10px;
+    font-size: 18px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
@@ -20,6 +20,6 @@ a {
   list-style-type: none;
   display: block;
   padding: 8px;
-  background-color: #808080;
+  background-color: #000000;
   color: #ffffff;
 }
