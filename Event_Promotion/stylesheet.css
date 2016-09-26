@@ -1,25 +1,38 @@
 body{
-    background-color: #CAE3D1;
-    font-size: 18px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+#header{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 80px;
+  color: #ffffff;
+}
+
+h1{
+  display: block;
+  top: 30px;
+  float: left;
+  left: 50px;
 }
 
 ul{
+  display: block;
+  float: right;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
 }
 
 li {
-  float:left;
+  display: inline;
+  margin-right: 10px
 }
 
-
-a {
-  list-style-type: none;
-  display: block;
-  padding: 8px;
-  background-color: #000000;
-  color: #ffffff;
+img{
+  width: 100%;
 }
