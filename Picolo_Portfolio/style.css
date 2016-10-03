@@ -8,14 +8,6 @@ body{
   max-width: 60em;
 }
 
-img {
-  width: 30%;
-}
-
-figure {
-  display: inline-block;
-}
-
 ul{
   margin-top: 2 em;
   float: left;
