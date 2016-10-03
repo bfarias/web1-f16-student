@@ -7,29 +7,47 @@ body{
   margin-left: auto;
   max-width: 40em;
 }
-
-ul{
+#nav{
   margin-top: 1em;
   float: left;
   padding: 0;
   display: block;
   list-style-type: none;
   overflow: hidden;
+  width: 40em;
 }
 
-li {
-  display: inline;
+ul{
+  padding: 0;
+  display: block;
+  list-style-type: none;
 }
 
 a{
   text-decoration: none;
-  font-size: 1em;
-  vertical-align: middle;
+  font-size: 1.5em;
   padding: 1em;
+  color: #00c69f;
+}
+
+li p{
+  padding-left: 5em;
 }
 
 p{
-  display:inline-block;
-  width: 50em;
-  text-align: center;
+  padding: 1em;
+  border: solid thin #00c69f;
+}
+
+#sites {
+  position: relative;
+  display: block;
+  height: auto;
+  
+}
+
+img {
+  width: 20em;
+  display: inline-block;
+  float: left;
 }
