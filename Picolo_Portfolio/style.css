@@ -26,6 +26,7 @@ a{
   font-size: 1em;
   vertical-align: middle;
   padding: 1em;
+  color: #00ba66;
 }
 
 p{
@@ -41,4 +42,9 @@ figure {
 figcaption {
   padding: 1em;
   width: 13em;
+}
+
+p a {
+  padding: 0;
+  vertical-align: baseline;
 }
