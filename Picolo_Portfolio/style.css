@@ -1,0 +1,42 @@
+body{
+  background-color: #FFFFFF;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  color: #000000;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 60em;
+}
+
+img {
+  width: 30%;
+}
+
+figure {
+  display: inline-block;
+}
+
+ul{
+  margin-top: 2 em;
+  float: left;
+  padding: none;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1em;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+p{
+  display:inline-block;
+  width: 50 em;
+}
