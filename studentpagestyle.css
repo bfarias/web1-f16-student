@@ -7,15 +7,7 @@ body{
   margin-left: auto;
   max-width: 40em;
 }
-#nav{
-  margin-top: 1em;
-  float: left;
-  padding: 0;
-  display: block;
-  list-style-type: none;
-  overflow: hidden;
-  width: 40em;
-}
+
 
 ul{
   padding: 0;
@@ -26,7 +18,7 @@ ul{
 a{
   text-decoration: none;
   font-size: 1.5em;
-  padding: 1em;
+  padding: 0;
   color: #00c69f;
 }
 
@@ -43,7 +35,7 @@ p{
   position: relative;
   display: block;
   height: auto;
-  
+
 }
 
 img {
