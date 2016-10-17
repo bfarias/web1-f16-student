@@ -2,7 +2,7 @@ body {
   color: #21543a;
   font-family: sans-serif; Verdana;
   width: 80%;
-  align-content: center;
+  justify-content: center;
 }
 
 h1{
