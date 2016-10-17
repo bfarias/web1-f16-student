@@ -4,6 +4,11 @@ body {
   width: 70%;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
+}
+
+p{
+  width: 50em;
 }
 
 h1{
