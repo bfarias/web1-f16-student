@@ -1,14 +1,13 @@
 body {
   color: #21543a;
   font-family: sans-serif; Helvetica;
-  width: 70%;
+  width: 50%;
   margin-right: auto;
   margin-left: auto;
 }
 
 p{
-  width: 50em;
-  text-align: center;
+  text-align: left;
 }
 
 h1{
