@@ -14,9 +14,8 @@ body{
 }
 
 header{
-  position: fixed;
+  /*position: fixed;*/
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 200;
   display: block;
   float: left;
   width: 100%;
@@ -95,10 +94,4 @@ thead {
 caption{
   font-size: 2em;
   color:#2ebd59;
-}
-
-#map {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
