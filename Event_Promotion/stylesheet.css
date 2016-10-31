@@ -14,7 +14,7 @@ body{
 }
 
 header{
-  position: fixed;
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
   display: block;
   float: left;
@@ -31,7 +31,6 @@ h1{
   display: inline;
   margin-top: .5em;
   margin-left: 1em;
-  /*font-size: 2em;*/
   overflow:hidden;
 }
 
