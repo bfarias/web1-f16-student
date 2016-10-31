@@ -7,9 +7,9 @@ body{
 }
 
 #logo {
-  width: 25px;
+  width: 450px;
   padding-right: .5em;
-  padding-top: 30px;
+  padding-top: 10px;
   display: inline-block;
 }
 
@@ -47,15 +47,12 @@ li {
   display: inline;
 }
 
-a{
+a, a:visited{
   text-decoration: none;
+  color: #ffffff;
   font-size: 1em;
   vertical-align: middle;
   padding: 40px;
-}
-
-a:visited {
-  color: currentColor;
 }
 
 a:hover{
