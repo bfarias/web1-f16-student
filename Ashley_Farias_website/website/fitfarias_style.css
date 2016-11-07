@@ -1,0 +1,41 @@
+body{
+  font-size: 12 px;
+  font-family: "Proxima Nova", sans-serif;
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+}
+
+#header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100px;
+  width: 100%;
+}
+
+#logo {
+  width: 100px;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin-top: 50px;
+  font-size: 20px;
+  float: right;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+.row {
+  -webkit-column-span: all;
+}
+
+.col-3 {
+  -webkit-column-span: 3;
+}
