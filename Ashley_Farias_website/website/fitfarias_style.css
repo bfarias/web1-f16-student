@@ -37,5 +37,8 @@ li {
 }
 
 .col-3 {
+  width: 300px;
+  padding: 10px;
   -webkit-column-span: 3;
+  float: left;
 }
