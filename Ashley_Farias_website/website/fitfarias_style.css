@@ -6,6 +6,15 @@ body{
   width: 100%;
 }
 
+#owl-carousel .item{
+  margin: 3px;
+}
+#owl-carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 #header {
   padding-top: 50px;
   padding-bottom: 50px;
