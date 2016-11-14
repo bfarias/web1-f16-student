@@ -1,0 +1,44 @@
+body{
+  background-color: #FFFFFF;
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  color: #000000;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 40em;
+}
+
+
+ul{
+  padding: 0;
+  display: block;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 0;
+  color: #00c69f;
+}
+
+li p{
+  padding-left: 5em;
+}
+
+p{
+  padding: 1em;
+  border: solid thin #00c69f;
+}
+
+#sites {
+  position: relative;
+  display: block;
+  height: auto;
+
+}
+
+img {
+  display: inline-block;
+  float: left;
+}
