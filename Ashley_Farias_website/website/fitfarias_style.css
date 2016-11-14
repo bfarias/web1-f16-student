@@ -1,25 +1,37 @@
 body{
-  font-size: 12 px;
+  font-size: 1em;
   font-family: "Proxima Nova", sans-serif;
   background-color: black;
   color: #ffffff;
   width: 100%;
 }
 
-#owl-carousel .item{
-  margin: 3px;
+.owl-carousel {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#owl-carousel .item img{
+
+.owl-carousel .item{
+  margin: 2%;
+}
+
+.owl-carousel .item img{
   display: block;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
 #header {
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-left: 0;
   height: 100px;
   width: 100%;
+  border: 0em;
+  border-bottom: .5em;
+  border-color: RGB(68, 187, 133);
+  border-style: solid;
 }
 
 #logo {
@@ -41,13 +53,23 @@ li {
   display: inline;
 }
 
-.row {
-  -webkit-column-span: all;
+#row {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.col-3 {
-  width: 300px;
+h3{
+  font-size: 2em;
+}
+
+.col {
+  width: 31.5%;
   padding: 10px;
-  -webkit-column-span: 3;
   float: left;
+  text-align: center;
+}
+
+.col img{
+  width: 50%;
+
 }
