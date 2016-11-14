@@ -10,6 +10,7 @@ body{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
 }
 
 .owl-carousel .item{
@@ -18,14 +19,14 @@ body{
 
 .owl-carousel .item img{
   display: block;
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 
 #header {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 2em;
   margin-left: 0;
+  padding-bottom: 1em;
   height: 100px;
   width: 100%;
   border: 0em;
@@ -41,7 +42,7 @@ body{
   margin: 0;
 }
 
-ul {
+#header ul {
   margin-top: 50px;
   font-size: 20px;
   float: right;
@@ -54,8 +55,12 @@ li {
 }
 
 #row {
+  width: 80%;
+  height: 25em;
   margin-left: auto;
   margin-right: auto;
+  padding: 5%;
+  overflow: visible;
 }
 
 h3{
@@ -63,13 +68,24 @@ h3{
 }
 
 .col {
-  width: 31.5%;
+  max-width: 28%;
   padding: 10px;
+  display: inline-block;
   float: left;
   text-align: center;
 }
 
 .col img{
-  width: 50%;
-
+  max-width: 100%;
 }
+
+#blurb {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+
+/*@media screen and (min-width: 480px) {
+    #row {width: 200px; float: left;}
+}*/
