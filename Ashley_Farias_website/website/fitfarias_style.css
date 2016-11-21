@@ -30,7 +30,7 @@ body{
   height: 100px;
   width: 100%;
   border: 0em;
-  border-bottom: .5em;
+  border-bottom: .25em;
   border-color: RGB(68, 187, 133);
   border-style: solid;
 }
@@ -43,23 +43,28 @@ body{
 }
 
 #header ul {
-  margin-top: 50px;
-  font-size: 20px;
+  margin-top: 5.5em;
   float: right;
+  width: 60em;
   list-style-type: none;
   overflow: hidden;
 }
 
-li {
+#header ul li {
   display: inline;
+  float: left;
 }
 
+#header ul img{
+  width: 10em;
+}
+
+
 #row {
-  width: 80%;
+  width: 70%;
   height: 25em;
   margin-left: auto;
   margin-right: auto;
-  padding: 5%;
   overflow: visible;
 }
 
@@ -68,8 +73,8 @@ h3{
 }
 
 .col {
-  max-width: 28%;
-  padding: 10px;
+  max-width: 30%;
+  padding: .5em;
   display: inline-block;
   float: left;
   text-align: center;
@@ -79,8 +84,17 @@ h3{
   max-width: 100%;
 }
 
+#testimonial {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  padding: 2em;
+  color: RGB(68, 187, 133);
+}
+
 #blurb {
-  width: 80%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   clear: both;
