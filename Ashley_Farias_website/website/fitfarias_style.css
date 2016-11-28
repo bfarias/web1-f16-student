@@ -28,7 +28,6 @@ body{
   margin-left: 0;
   padding-bottom: 1em;
   height: 100px;
-  width: 100%;
   border: 0em;
   border-bottom: .5em;
   border-color: RGB(68, 187, 133);
@@ -38,28 +37,31 @@ body{
 #logo {
   width: 100px;
   float: left;
-  padding: 0;
+  padding-left:2em;
   margin: 0;
 }
 
-#header ul {
-  margin-top: 50px;
-  font-size: 20px;
+ul {
+  margin-top: 80px;
   float: right;
   list-style-type: none;
-  overflow: hidden;
+  display: block;
 }
 
-li {
+li{
   display: inline;
 }
 
+.navbuttons{
+  width: 200px;
+}
+
 #row {
-  width: 80%;
+  width: 70em;
   height: 25em;
   margin-left: auto;
   margin-right: auto;
-  padding: 5%;
+  /*padding: 5%;*/
   overflow: visible;
 }
 
@@ -67,20 +69,37 @@ h3{
   font-size: 2em;
 }
 
-.col {
+.col-1, .col-2, .col-3 {
   max-width: 28%;
-  padding: 10px;
   display: inline-block;
   float: left;
   text-align: center;
 }
 
-.col img{
+.col-1 {
+  position: relative;
+  padding-left: 2em;
+}
+
+.col-2{
+  position: relative;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.col-3{
+  postition: relative;
+  padding-right: 2em;
+}
+
+img{
   max-width: 100%;
 }
 
 #blurb {
-  width: 80%;
+  width: 50%;
+  padding-top: 2em;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   clear: both;
