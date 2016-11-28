@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans", Open Sans, sans-serif;
   font-size: 1em;
-  background-color: #FFFFFF;
+  background: transparent url(images/tree_bark.png) repeat;
   margin: 0;
   padding: 0;
 }
@@ -15,18 +15,22 @@ ul{
   font-size: 3em;
   font-weight: bold;
   padding-left: 200px;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 h2{
   font-size: 2em;
   font-weight: bold;
   color: rgb(82, 147, 158);
+  margin: 0;
+  padding-bottom: .5em;
 }
 
 .sidebar{
   width: 138px;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 2em;
   background: transparent;
   position: fixed;
 }
@@ -40,10 +44,27 @@ h2{
   margin-bottom: 2px;
   text-decoration: none;
   border-radius: 2px;
+  text-align: center;
+}
+
+a:hover{
+  font-weight: bold;
+  color: rgb(82, 147, 158);
+  text-decoration: underline;
 }
 
 #main {
   display: block;
   width: 60em;
   padding-left: 200px;
+}
+
+.body {
+  background-color: white;
+  padding: 1em;
+}
+
+p{
+  padding: 0;
+  margin: 0;
 }
