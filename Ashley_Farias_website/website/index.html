@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <title>Ashley Farias</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
+
+<!-- Default Theme -->
+	<link rel="stylesheet" href="owl.carousel/owl-carousel/owl.theme.css">
+	<link rel="stylesheet" href="gridpak/gridpak.css">
+	<link rel="stylesheet" href="gridpak/gridpak.js">
+	<link rel="stylesheet" href="fitfarias_style.css">
+</head>
+
+
+<body>
+	<div id="header">
+		<img id="logo" src="images/fitfarias_logo.png"/>
+		<ul>
+			<li>
+				<a href="index.html"><img class="navbuttons" src="images/home.svg" alt="Home"/></a>
+			</li>
+			<li>
+				<a href="services.html"><img class="navbuttons" src="images/services.svg" alt="Services"/></a></li>
+			<li>
+				<a href="testimonials.html"><img class="navbuttons" src="images/testimonials.svg" alt="Testimonials"/></a></li>
+			<li>
+				<a href="blog.html"><img class="navbuttons" src="images/blog.svg" alt="blog"/></a></li>
+			<li>
+				<a href="contact.html"><img class="navbuttons" src="images/contact.svg" alt="contact"/></a></li>
+		</ul>
+	</div>
+
+		<div class="main-content">
+			<div class="owl-carousel">
+				<div class="item"> <img src="images/fitfarias01.jpg"/> </div>
+				<div class="item"> <img src="images/fitfarias02.jpg"/> </div>
+				<div class="item"> <img src="images/fitfarias03.jpg"/> </div>
+				<div class="item"> <img src="images/fitfarias04.jpg"/> </div>
+				<div class="item"> <img src="images/fitfarias05.jpg"/> </div>
+				<div class="item"> <img src="images/fitfarias06.jpg"/> </div>
+			</div>
+
+			<section id="row">
+				<div class="span_4">
+					<h3>Package One</h3>
+					<img src="images/package01.jpg"/>
+					<p>This is package one</p>
+				</div>
+				<div class="span_4">
+					<h3>Package Two</h3>
+					<img src="images/package01.jpg"/>
+					<p>This is package two</p>
+				</div>
+				<div class="span_4">
+					<h3>Package Three</h3>
+					<img src="images/package01.jpg"/>
+					<p>This is package three</p>
+				</div>
+			</section>
+
+			<section id="blurb">
+				<p>My purpose has become to not only help people lose fat or gain muscle but to also help people maintain a healthy lifestyle that doesn’t interfere with their life at work, home, or with friends. More often than not people are told to go to the extremes to achieve their goals but I’m hereto prove that fitness can be enjoyable. Fitness is something you CAN achieve. </p>
+			</section>
+		</div>
+		<script src="owl.carousel/assets/js/jquery-1.9.1.min.js"></script>
+		<script src="owl.carousel//owl-carousel/owl.carousel.js"></script>
+
+		<script>
+		$(document).ready(function() {
+			var owlDiv = $(".owl-carousel");
+			owlDiv.owlCarousel({
+				items:3,
+				itemsDesktop : [1199,3],
+				itemsDesktopSmall : [979,3]
+			});
+
+		});
+		</script>
+</body>
+
+</html>
