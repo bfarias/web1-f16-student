@@ -1,0 +1,107 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #5d6760;
+  background-color: #edeaea;
+  margin: 0;
+}
+
+header {
+  margin: none;
+  padding: 1em;
+  background-color: #252525;
+}
+
+.logo{
+    display: -webkit-flex;
+    display: inline-flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 6.5em;
+    margin-left: 2em;
+}
+
+a, a:visited {
+  text-decoration:none;
+  color: #43d57d;
+}
+
+nav{
+  display: -webkit-flex;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-wrap:wrap;
+  float:right;
+  height: 3em;
+  margin-top: 4em;
+  border-bottom: 1px solid #eaedef;
+  border-top: 1px solid #eaedef;
+  text-align: center;
+}
+
+.menu_buttons {
+  height: 2em;
+  margin: 1em;
+}
+
+.content{
+  width: 75%;
+  margin: auto;
+}
+
+img{
+  width: 100%;
+}
+
+.front-img-container {
+  display: block;
+  float: left;
+  width: 40%;
+  position: relative;
+  margin: 2em;
+}
+
+.frontimg {
+  float: left;
+}
+
+.intro-content{
+  display: block;
+  width: 50%;
+  float: left;
+  position: relative;
+  margin: 1em;
+}
+
+.secondary-container {
+  display: block;
+  float: left;
+  position: relative;
+  margin: 2em;
+}
+
+.client-img {
+  display: block;
+  float: left;
+  width: 30%;
+  padding-left: 5em;
+}
+
+.secondary-content{
+  display: block;
+  float: left;
+  width: 40em;
+  margin: 2em;
+  border-color: #43d57d;
+  padding: 1em;
+  background-color: white;
+  border-width: thin;
+  border-style: solid;
+}
+
+.icon {
+  width: 15%;
+  padding-top: 3em;
+  padding-right: 3em;
+}
